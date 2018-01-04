@@ -1,0 +1,65 @@
+﻿.h1Shadow {
+    color: #58FAF4;
+    text-shadow: 3px 3px 5px #000000;
+}
+
+.divFill {
+    border: double;
+    border-radius: 55px 55px 55px 55px / 25px 25px 25px 25px;
+    background: url(../Images/border.jpg) no-repeat;
+    background-size: 100% 100%;
+    margin-left: 20px;
+    min-height:600px;
+}
+
+.divIn {
+    margin-left: 15%;
+    margin-right: 14%;
+    margin-top: 15%;
+    margin-bottom: 5%
+}
+
+.divFillSmall {
+    background-image: url(../images/DivBack.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    min-width: 100px;
+    min-height: 200px;
+    max-width: 250px;
+    max-height: 350px
+}
+
+.divFillMed {
+    background-image: url(../images/DivBack.jpg);
+    background-size: cover;
+    min-width: 80%;
+    margin-left: 10%;
+    column-count: 2;
+    column-gap: 30px;
+    min-height: 200px;
+}
+
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+    -moz-column-fill: balance; /* Firefox */
+    column-fill: balance;
+    /*-webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+    /*-moz-column-rule: 1px solid lightblue; /* Firefox */
+    /*column-rule: 1px solid lightblue;*/
+    background-image: url(../images/DivBack.jpg);
+    background-size: cover;
+    min-width: 85%;
+    margin-left: 5%;
+    column-count: 2;
+    column-gap: 30px;
+    min-height: 200px;
+}
+.newspaper-h2 {
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+}
