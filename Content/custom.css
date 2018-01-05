@@ -15,8 +15,9 @@
 .divIn {
     margin-left: 15%;
     margin-right: 14%;
-    margin-top: 15%;
-    margin-bottom: 5%
+    margin-top: 20%;
+    margin-bottom: 20%;
+    min-height:80%;
 }
 
 .divFillSmall {
@@ -37,6 +38,15 @@
     column-count: 2;
     column-gap: 30px;
     min-height: 200px;
+}
+.bg {
+    /*background-image: url("../images/fireworks-animation-51.gif");*/
+    /*background-image: url("../images/490501_49f8d.gif");*/
+    background-image: url("../images/c1.gif");
+    /*height: 100%;*/
+    /*background-position: center;*/
+    /*background-repeat: round repeat;*/
+    /*background-size: cover;*/
 }
 
 .newspaper {
@@ -59,7 +69,27 @@
     column-gap: 30px;
     min-height: 200px;
 }
+
+.newspaperNoCol {
+    background-image: url(../images/DivBack.jpg);
+    background-size: cover;
+    min-width: 85%;
+    margin-left: 5%;
+    column-gap: 30px;
+    min-height: 200px;
+}
+
 .newspaper-h2 {
     -webkit-column-span: all; /* Chrome, Safari, Opera */
     column-span: all;
+}
+
+.par {
+    font-size:130%;
+    /*text-indent:30px;*/
+    text-align: justify;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:5px;
+    margin-right:5px;
 }
