@@ -6,7 +6,7 @@
 .divFill {
     border: double;
     border-radius: 55px 55px 55px 55px / 25px 25px 25px 25px;
-    background: url("Images/border.jpg") no-repeat;
+    background: url("/Images/border.jpg") no-repeat;
     background-size: 100% 100%;
     margin-left: 20px;
     min-height:600px;
@@ -21,7 +21,7 @@
 }
 
 .divFillSmall {
-    background-image: url("Images/DivBack.jpg");
+    background-image: url("/Images/DivBack.jpg");
     background-size: cover;
     margin-left: 50px;
     min-width: 100px;
@@ -31,7 +31,7 @@
 }
 
 .divFillMed {
-    background-image: url("Images/DivBack.jpg");
+    background-image: url("/Images/DivBack.jpg");
     background-size: cover;
     min-width: 80%;
     margin-left: 10%;
@@ -42,7 +42,7 @@
 .bg {
     /*background-image: url("Images/fireworks-animation-51.gif");*/
     /*background-image: url("Images/490501_49f8d.gif");*/
-    background-image: url("Images/c1.gif");
+    background-image: url("/Images/c1.gif");
     /*height: 100%;*/
     /*background-position: center;*/
     /*background-repeat: round repeat;*/
@@ -61,7 +61,7 @@
     /*-webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
     /*-moz-column-rule: 1px solid lightblue; /* Firefox */
     /*column-rule: 1px solid lightblue;*/
-    background-image: url("Images/DivBack.jpg");
+    background-image: url("/Images/DivBack.jpg");
     background-size: cover;
     min-width: 85%;
     margin-left: 5%;
@@ -71,7 +71,7 @@
 }
 
 .newspaperNoCol {
-    background-image: url("Images/DivBack.jpg");
+    background-image: url("/Images/DivBack.jpg");
     background-size: cover;
     min-width: 85%;
     margin-left: 5%;
