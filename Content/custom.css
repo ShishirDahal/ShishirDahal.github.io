@@ -21,7 +21,7 @@
 }
 
 .divFillSmall {
-    background-image: url(Images/DivBack.jpg);
+    background-image: url("Images/DivBack.jpg");
     background-size: cover;
     margin-left: 50px;
     min-width: 100px;
@@ -31,7 +31,7 @@
 }
 
 .divFillMed {
-    background-image: url(Images/DivBack.jpg);
+    background-image: url("Images/DivBack.jpg");
     background-size: cover;
     min-width: 80%;
     margin-left: 10%;
@@ -61,7 +61,7 @@
     /*-webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
     /*-moz-column-rule: 1px solid lightblue; /* Firefox */
     /*column-rule: 1px solid lightblue;*/
-    background-image: url(Images/DivBack.jpg);
+    background-image: url("Images/DivBack.jpg");
     background-size: cover;
     min-width: 85%;
     margin-left: 5%;
@@ -71,7 +71,7 @@
 }
 
 .newspaperNoCol {
-    background-image: url(Images/DivBack.jpg);
+    background-image: url("Images/DivBack.jpg");
     background-size: cover;
     min-width: 85%;
     margin-left: 5%;
