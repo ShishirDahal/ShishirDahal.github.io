@@ -9,6 +9,8 @@
     background: url("/Images/border.jpg") no-repeat;
     background-size: 100% 100%;
     margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:10px;
     min-height:600px;
 }
 
