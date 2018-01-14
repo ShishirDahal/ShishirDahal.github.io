@@ -1,4 +1,4 @@
-﻿.h1Shadow {
+1﻿.h1Shadow {
     color: #58FAF4;
     text-shadow: 3px 3px 5px #000000;
 }
@@ -8,8 +8,8 @@
     border-radius: 55px 55px 55px 55px / 25px 25px 25px 25px;
     background: url("/Images/border.jpg") no-repeat;
     background-size: 100% 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom:10px;
     min-height:600px;
 }
